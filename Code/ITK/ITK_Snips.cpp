@@ -30,3 +30,15 @@ void create_item (char *item_id, tag_t *new_item, tag_t *new_rev)
     printf("Attaching Item ID: %s to Newstuff Folder\n", item_id);
     FL_user_update_newstuff_folder(*new_item);
 }
+
+void createWorflowOnItemRev(){
+	tag_t rev = NULLTAG, process_template = NULLTAG,process = NULLTAG;
+	int attach_types[1] = {1}; 
+	int status = 0;
+	//find itemrev on which you want apply workflow 
+	status=ITEM_find_rev("000206", "A", &rev);
+	//find template
+	status=EPM_find_process_template("oneStepWithStatus", &process_template);
+	//create workflow with template
+	status=EPM_create_process("oneStepWithStatus", "oneStepWithStatus", process_template, 1, &rev, attach_types, &process) 
+}
