@@ -13,3 +13,7 @@ BMIDE instructions
 4. Deep copy rule
   whether objects in IR can be copied when revise or save as happens.
   To create new one, open object under IR and go to deep copy rules tab.
+5. LOVs:
+  Classic (stored in template): could be exhaustive (containing all values), suggestive (user can enter own value), Range 
+  Batch (stored in DB): 
+  Dynamic (queries db to evaluate): 
