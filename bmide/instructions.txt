@@ -1,0 +1,15 @@
+BMIDE instructions
+1. Add business object display rule
+  to limit item to be created by group or roles. (add dispaly rule for object)
+2. GRM (Generic ralationship management)
+  to apply constraint between relationship of two objects.
+  cardinality : number of occurences of relation between objects. set to 0 to not allow certain types of objects.
+  Changebility: to allow relationshup links to CRUD
+  attachability: new ralationship links can be made
+  detachability: relationship links can be made
+3. Naming Rule
+  data entry format for properties.(e.g.- how objects are made, how IDs are assigned)
+  to add it, In extenstion->rules->naming rules, add new rule.
+4. Deep copy rule
+  whether objects in IR can be copied when revise or save as happens.
+  To create new one, open object under IR and go to deep copy rules tab.
