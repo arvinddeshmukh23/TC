@@ -1,0 +1,45 @@
+Some important modules
+AE(Application Encapsulation): dataset
+  AE_add_dataset_named_ref2 : adds dataset to named reference
+  AE_ask_all_dataset_named_refs2 :  finds all the named reference objects of the dataset dsTag that match the name refName
+  AE_ask_dataset_anchor : Returns the revision anchor for any revision of a dataset
+  AE_ask_dataset_datasettype  : Returns the datasettype attribute
+  AE_create_dataset_with_id : creates dataset with id
+  AE_remove_dataset_named_ref_by_tag2 : Removes named references from datasets
+  AE_export_named_ref : Exports the ImanFile object that is associated with the dataset by named reference
+  AE_ask_dataset_num_revs : Returns the total number of versions for the specified dataset
+  AE_purge_anchor_revisions : Removes all unreferenced revisions except for the latest
+  AE_ask_datasettype_name2 : gets dataset type name
+  AE_find_datasettype2 : gets dataset type in tag
+  AE_import_named_ref : imports file as named reference in dataset
+  AE_save_myself : saves without creating new dataset version
+
+SA(System Administrator): Organization
+
+AOM(Application Object Module): To set property
+
+CRF(Reports)
+
+GRM(Relation)
+
+RES(Reservation):to Check out
+
+POM(Persistent Object Manager): Pom Queries and POM level ITK calls
+
+TCType (Teamcenter Types): Create new item, form
+
+BOM(Bill of Material):
+
+PS (Product Structure): BOM
+
+PROP (Properties): To get Property type , to get real and display name
+
+QRY( Query ): 
+
+RELSTAT(Release status):
+
+WSOM(Workspace object):
+
+AM(Access Manager):
+
+CFM(Configuration manager): Revision Rule
