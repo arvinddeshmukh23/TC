@@ -15,14 +15,62 @@ AE(Application Encapsulation): dataset
   AE_save_myself : saves without creating new dataset version
 
 SA(System Administrator): Organization
+  SA_find_role2 : finds role with string
+  SA_find_user2 : Finds a user with the specified user_id
+  SA_find_group : finds group with string
+  SA_get_user_status : gets user status . 0 if active
+  SA_find_site_by_id : finds site by id (new one in tc 12)
+  SA_ask_user_identifier2 : gets identifier from ta
+  SA_ask_site_info2 : gets site details
 
 AOM(Application Object Module): To set property
+  AOM_ask_creation_date
+  AOM_ask_name
+  AOM_ask_owner
+  AOM_ask_prop_names
+  AOM_ask_value_date
+  AOM_ask_value_int
+  AOM_ask_value_logical
+  AOM_ask_value_string
+  AOM_ask_value_strings
+  AOM_ask_value_tag
+  AOM_ask_value_tags
+  AOM_ask_value_type
+  AOM_delete
+  AOM_lock
+  AOM_lock_for_delete
+  AOM_refresh
+  AOM_save_with_extensions : saves with pre, post extension
+  AOM_set_ownership : delets
+  AOM_set_value_int
+  AOM_set_value_logical
+  AOM_set_value_string
+  AOM_set_value_tags
+  AOM_UIF_ask_value
+  AOM_UIF_ask_values
+  AOM_UIF_set_value
+  AOM_unload
+  AOM_unlock
 
 CRF(Reports)
 
 GRM(Relation)
+  GRM_ask_primary	: Returns the primary object tag of the specified relation
+  GRM_ask_relation_type : Returns the relation type of the specified relation
+  GRM_ask_secondary : Returns the secondary object tag of the specified relation
+  GRM_create_relation : create relation
+  GRM_delete_relation : deletes relation
+  GRM_find_relation : Looks for a relation and returns its tag if it exists
+  GRM_list_relations : 
+  GRM_list_primary_objects_only : 
+  GRM_list_primary_objects_with_primary_object_type_only : 
+  GRM_list_secondary_objects_only : 
 
 RES(Reservation):to Check out
+  RES_checkout2 : checkout objects
+  RES_checkin : checkin objects
+  RES_is_checked_out : returns true if it is checked out
+  RES_ask_user : gets user who has checked out object
 
 POM(Persistent Object Manager): Pom Queries and POM level ITK calls
 
