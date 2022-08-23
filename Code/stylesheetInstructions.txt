@@ -1,0 +1,3 @@
+Stylesheet: XMLRenderingStylesheet type datasets.
+They are used in : Summary view, view Properties, create Dialogue, save As Dialogue, Revise Dialogue, Form Dialogue.
+ItemRevision object is being viewed in Summary viewer= preference used is ItemRevision.SUMMARYRENDERING
